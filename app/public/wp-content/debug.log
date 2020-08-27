@@ -1,0 +1,106 @@
+[03-Jun-2020 08:07:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php on line 1626
+[03-Jun-2020 08:07:51 UTC] PHP Stack trace:
+[03-Jun-2020 08:07:51 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[03-Jun-2020 08:07:51 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[03-Jun-2020 08:07:51 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[03-Jun-2020 08:07:51 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[03-Jun-2020 08:07:51 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[03-Jun-2020 08:07:51 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[03-Jun-2020 08:07:51 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[03-Jun-2020 08:07:51 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[03-Jun-2020 08:07:51 UTC] PHP   9. require_wp_db() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:126
+[03-Jun-2020 08:07:51 UTC] PHP  10. wpdb->__construct() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/load.php:426
+[03-Jun-2020 08:07:51 UTC] PHP  11. wpdb->db_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:631
+[03-Jun-2020 08:07:51 UTC] PHP  12. mysqli_real_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:1626
+[03-Jun-2020 08:13:37 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:13:37 UTC] PHP Stack trace:
+[03-Jun-2020 08:13:37 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:13:37 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:13:37 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:13:37 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:13:37 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:13:37 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:13:40 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:13:40 UTC] PHP Stack trace:
+[03-Jun-2020 08:13:40 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:13:40 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:13:40 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:13:40 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:13:40 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:13:40 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:13:43 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:13:43 UTC] PHP Stack trace:
+[03-Jun-2020 08:13:43 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:13:43 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:13:43 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:13:43 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:13:43 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:13:43 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:13:49 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:13:49 UTC] PHP Stack trace:
+[03-Jun-2020 08:13:49 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:13:49 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:13:49 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:13:49 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:13:49 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:13:49 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:13:57 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:13:57 UTC] PHP Stack trace:
+[03-Jun-2020 08:13:57 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:13:57 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:13:57 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:13:57 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:13:57 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:13:57 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:14:19 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:14:19 UTC] PHP Stack trace:
+[03-Jun-2020 08:14:19 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:14:19 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:14:19 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:14:19 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:14:19 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:14:19 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:14:21 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:14:21 UTC] PHP Stack trace:
+[03-Jun-2020 08:14:21 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:14:21 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:14:21 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:14:21 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:14:21 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:14:21 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[03-Jun-2020 08:14:24 UTC] PHP Warning:  Declaration of Automattic_Developer_Empty_Upgrader_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/includes/class-empty-upgrader-skin.php on line 5
+[03-Jun-2020 08:14:24 UTC] PHP Stack trace:
+[03-Jun-2020 08:14:24 UTC] PHP   1. {main}() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:0
+[03-Jun-2020 08:14:24 UTC] PHP   2. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-admin/admin-ajax.php:22
+[03-Jun-2020 08:14:24 UTC] PHP   3. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-load.php:37
+[03-Jun-2020 08:14:24 UTC] PHP   4. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-config.php:78
+[03-Jun-2020 08:14:24 UTC] PHP   5. include_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:371
+[03-Jun-2020 08:14:24 UTC] PHP   6. require_once() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-content/plugins/developer/developer.php:20
+[05-Jun-2020 09:38:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php on line 1626
+[05-Jun-2020 09:38:12 UTC] PHP Stack trace:
+[05-Jun-2020 09:38:12 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[05-Jun-2020 09:38:12 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[05-Jun-2020 09:38:12 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[05-Jun-2020 09:38:12 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[05-Jun-2020 09:38:12 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[05-Jun-2020 09:38:12 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[05-Jun-2020 09:38:12 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[05-Jun-2020 09:38:12 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[05-Jun-2020 09:38:12 UTC] PHP   9. require_wp_db() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:126
+[05-Jun-2020 09:38:12 UTC] PHP  10. wpdb->__construct() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/load.php:426
+[05-Jun-2020 09:38:12 UTC] PHP  11. wpdb->db_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:631
+[05-Jun-2020 09:38:12 UTC] PHP  12. mysqli_real_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:1626
+[24-Jun-2020 09:02:53 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php on line 1626
+[24-Jun-2020 09:02:53 UTC] PHP Stack trace:
+[24-Jun-2020 09:02:53 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[24-Jun-2020 09:02:53 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[24-Jun-2020 09:02:53 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[24-Jun-2020 09:02:53 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[24-Jun-2020 09:02:53 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[24-Jun-2020 09:02:53 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[24-Jun-2020 09:02:53 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[24-Jun-2020 09:02:53 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[24-Jun-2020 09:02:53 UTC] PHP   9. require_wp_db() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-settings.php:126
+[24-Jun-2020 09:02:53 UTC] PHP  10. wpdb->__construct() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/load.php:426
+[24-Jun-2020 09:02:53 UTC] PHP  11. wpdb->db_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:631
+[24-Jun-2020 09:02:53 UTC] PHP  12. mysqli_real_connect() /Users/jandahl-madsen/Local Sites/edxchild/app/public/wp-includes/wp-db.php:1626

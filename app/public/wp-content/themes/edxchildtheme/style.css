@@ -1,0 +1,31 @@
+/*
+ Theme Name:   EdxChildTheme
+ Theme URI:    http://example.com/twenty-twenty-child/
+ Description:  Twenty Twenty Child Theme
+ Author:       JSDM
+ Author URI:   http://jsdm.eu
+ Template:     twentytwenty
+ Version:      1.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+ Text Domain:  EdxChildTheme
+*/
+
+.widget_text p,
+.widget_text ol,
+.widget_text ul,
+.widget_text dl,
+.widget_text dt,
+.widget-content .rssSummary,
+.entry-content {
+	font-family: "Lora", "Libre Baskerville", NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.wp-block-pullquote::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f10e";
+	font-size: 2rem;
+	padding: 10px;
+}
